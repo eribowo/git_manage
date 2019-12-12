@@ -1,0 +1,8 @@
+#!/bin/bash
+cd /odoo/custom/addons/
+sudo git init
+sudo git add . or git add ['filename']
+sudo git commit -m "My first File"
+sudo git remote add origin https://github.com/yourusername/your-repo-name.git
+sudo git pull origin master
+sudo git push origin master
