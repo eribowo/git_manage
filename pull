@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /odoo/custom/addons/
+sudo git pull origin master
+sudo service odoo-server restart
