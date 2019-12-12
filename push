@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /odoo/custom/addons/
+sudo git add -A && git commit -m "new module"
+sudo git push origin master
