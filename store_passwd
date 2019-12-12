@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /odoo/custom/addons/
+git config credential.helper store
